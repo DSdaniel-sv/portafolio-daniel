@@ -60,6 +60,10 @@ a{
 }
 
 /* section2 */
+#sobre-mi{
+    margin: auto;
+    height: 2rem;
+}
 .section2{
     display: flex;
     justify-content: space-around;
@@ -152,7 +156,67 @@ a{
 }
 
 /* section3 */
+#portafolio{
+    margin: auto;
+    height: 4rem;
+}
 .section3 img{
-    width: 13rem;
+    width: 25rem;
     height: 20rem;
+    border-radius: 5rem;
+}
+.section3 .name-portaf{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    color: #c6c6c6;
+}
+.cont-retos1{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    margin: 2rem;
+    flex-wrap: wrap;
+}
+.cont-reto1{
+    border: solid violet;
+    display: inline-block;
+    color: #4c4c4c;
+    padding: 1rem;
+    background-color: #919191;
+    border-radius: 20px;
+    border: 5px rgb(87, 86, 86) solid;
+}
+.cont-retos1 h2{
+    color: #4c4c4c;
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+.cont-retos1 p{
+    color: #4c4c4c;
+    font-size: 1.5rem;
+}
+
+/* footer */
+.footer{
+    display: flex;
+    justify-content: space-between;
+}
+.footer p{
+    color: #979090;
+    font-weight: 700;
+    font-size: 1rem;
+    padding: 1rem;
+}
+.footer .box-img-3 {
+    padding: 1rem;
+}
+.footer .box-img-3 a{
+    padding: 1rem;
+}
+.footer .box-img-3 img{
+    width: 2rem;
+    background-color: white;
+    border-radius: 2rem;
 }
