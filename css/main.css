@@ -208,6 +208,8 @@ a{
     font-weight: 700;
     font-size: 1rem;
     padding: 1rem;
+    display: flex;
+    align-items: center;
 }
 .footer .box-img-3 {
     padding: 1rem;
@@ -218,5 +220,5 @@ a{
 .footer .box-img-3 img{
     width: 2rem;
     background-color: white;
-    border-radius: 2rem;
+    border-radius: 50%;
 }
